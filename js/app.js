@@ -45,6 +45,10 @@ testMultiply(5,9);
 /* Problem 3
 Write a function called sumAndMultiply() that takes in three numbers as separate arguments and returns an array where the first element is the sum of those three numbers, the second element is the product of those three numbers,  and the third and fourth elements are strings that EXACTLY follow this example and use the values that were input into the function:
 
+a,b,c
+let firstSum = sum(a,b)
+let finalSum = sum(firstSum, c)
+
 Third element: "4 and 7 and 5 sum to 16."
 Fourth element: "The product of 4 and 7 and 5 is 140."
 
@@ -134,6 +138,10 @@ testMultiplyArray(testArray);
 /////////////////////////////////////
 /* STRETCH GOAL: Problem 6
 Write a function called multiplyAnyArray() that takes an array of numbers of any length as its argument and returns an array whose first element is the product of those numbers, and the second element is a string that EXACTLY follows this example and concatenates a message using the arguments that were passed into the function:
+
+for (let i = 0; i<array.length; i++){
+  sum(0, array[i])
+}
 
 "The numbers 1,2,3,4,5 have a product of 120."
 
